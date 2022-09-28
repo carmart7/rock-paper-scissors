@@ -58,9 +58,17 @@ if (humanChoice == computerChoice) {
         alert('You lose!');
         losses = losses + 1;
     }
+ 
 }
+scoreCard();
 // 4. Declare Wins, Losses, Ties
 // 5. Prompt Scorecard
+
+function scoreCard(){
+
+    
+    alert("Wins: " + wins + "\n Losses: " + losses + "\n Ties: " + ties);
+}
 // 6. Prompt Play Again?
 
 function computerNumber() {
